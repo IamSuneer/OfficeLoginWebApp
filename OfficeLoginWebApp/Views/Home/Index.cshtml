@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Today is @DateTime.UtcNow.DayOfWeek, @DateTime.UtcNow.ToShortDateString().</p> 
+    <p>You Logged in on @DateTime.UtcNow.ToShortTimeString().</p>
+</div>
